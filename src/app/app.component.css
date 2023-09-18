@@ -1,0 +1,38 @@
+.bg-body {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #412481;
+  display: grid;
+  justify-content: center;
+}
+
+.bg-body > h1{
+  font-size: 60px;
+  padding-top: 100px;
+  margin-bottom: 0
+}
+
+.bg-body > p{
+  margin-top: 0;
+  padding-left: 10%
+}
+
+.div-buttons{
+  margin-top:2rem;
+  display: flex;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+.div-bottom{
+  margin-top: 12rem;
+  display: grid;
+  justify-content: center;
+  font-size: 12px
+}
