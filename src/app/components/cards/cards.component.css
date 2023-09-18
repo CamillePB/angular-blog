@@ -1,0 +1,19 @@
+.div-card{
+  display: grid;
+  justify-content: center;
+  width: calc(50% - 1px);
+  text-align: center;
+}
+
+img{
+  width:70px;
+  margin: 0 auto;
+}
+
+h3{
+  margin-bottom:0
+}
+
+p{
+  font-size: 10px
+}
