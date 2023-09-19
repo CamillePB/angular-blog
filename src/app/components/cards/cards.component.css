@@ -1,8 +1,15 @@
+body{
+  width:10%;
+}
+
 .div-card{
-  display: grid;
+
+  display:grid;
   justify-content: center;
-  width: calc(50% - 1px);
   text-align: center;
+  justify-items: center;
+  padding: 0px; /* Espaçamento interno dos itens */
+  width:100%;
 }
 
 img{
@@ -11,7 +18,12 @@ img{
 }
 
 h3{
+  display:flex;
   margin-bottom:0
+}
+
+.paragraph{
+  width:60%
 }
 
 p{
