@@ -1,8 +1,10 @@
 button{
   border: 1px solid white;
   border-radius: 30px;
-  padding: 1rem 2.5rem 1rem 2.5rem;
+  padding: 1rem 2rem 1rem 2rem;
   background-color:transparent;
-  display: inline-block; 
-  color: white
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }

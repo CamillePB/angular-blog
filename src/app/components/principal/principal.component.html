@@ -3,11 +3,17 @@
 <p>Responsive. Retina Ready. Sketch Support</p>
 
 <div class="div-buttons">
-<app-buttons></app-buttons>
-<app-buttons></app-buttons>
+<app-buttons>LEARN MORE</app-buttons>
+
+
+<app-buttons [ngClass]="{'button-dark': changeStyle}">
+  <img class="seta-icon" src="../../../assets/right-arrow.png">
+WATCH VIDEO
+</app-buttons>
 </div>
 
 <div class="div-bottom">
+  <img class="mouse-icon" src="../../../assets/mouse-cursor.png"> 
   <p>scroll down to see more</p>
 </div>
 </div>

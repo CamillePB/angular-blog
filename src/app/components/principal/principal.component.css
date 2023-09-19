@@ -1,9 +1,5 @@
+
 .bg-body {
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
   color: white;
   background-image: url("https://th.bing.com/th/id/OIP.nRicwaRg8R_o_OZVX2zQXgHaEo?w=358&h=185&c=7&r=0&o=5&pid=1.7");
   background-size: cover;
@@ -11,17 +7,22 @@
   background-position: center center;
   display: grid;
   justify-content: center;
+  width:82rem;
+  margin:0;
 }
 
 .bg-body > h1{
+  display:flex;
   font-size: 55px;
-  padding-top: 13rem;
-  margin-bottom: 0
+  padding-top: 11rem;
+  margin-bottom: 0;
+  justify-content: center;
 }
 
 .bg-body > p{
+  display:flex;
   margin-top: 0;
-  padding-left: 10%
+  justify-content: center;
 }
 
 .div-buttons{
@@ -35,5 +36,23 @@
   margin-top: 10rem;
   display: grid;
   justify-content: center;
-  font-size: 12px
+  justify-items: center;
+  font-size: 12px;
+
+}
+
+.button-dark{
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color:rgba(0, 0, 0, 0.9);
+
+}
+
+.mouse-icon{
+  width: 35%
+}
+
+.seta-icon{
+  display:flex;
+  width: 8%
 }

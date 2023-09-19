@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./principal.component.css']
 })
 export class PrincipalComponent {
-
+  changeStyle: boolean = true;
 }

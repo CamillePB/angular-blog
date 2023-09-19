@@ -24,12 +24,18 @@
 hr{
   width:50%
 }
+.div-cards-info{
+  display: flex;
+      justify-content: center;
+}
 
 .div-info{
+  width:70%;
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: space-between;
   align-items: center; /* Alinha os itens verticalmente ao centro */
   height: 300px; /* Altura opcional para o contêiner */
   padding: 10px; /* Espaçamento interno do contêiner */

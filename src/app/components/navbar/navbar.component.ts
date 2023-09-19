@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
+  textColor: string = 'blue';
+  size: number = 16;
+  fontSize: number = 1;
 }

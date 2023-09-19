@@ -4,7 +4,8 @@
  justify-content: center;
  align-items: center;
  display: flex;
- width: 100%
+ width: 100%;
+ height: 80px;
 }
 
 .navbar a{
@@ -22,7 +23,7 @@
   display: block;
   color: white; 
   text-align: center; 
-  padding: 0px 150px 16px 16px; 
+  padding: 15px 150px 16px 16px; 
   text-decoration: none; 
 
 }
@@ -31,6 +32,10 @@
   color: #9794AF;
 }
 
-.button{
-//margin-top: 0.7rem;
+.home-icon{
+  width: 25%
+}
+
+.logo{
+  width: 3%
 }
