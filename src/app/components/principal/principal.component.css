@@ -1,4 +1,8 @@
 
+html, body {
+	width: 100%;
+	}
+
 .bg-body {
   color: white;
   background-image: url("https://th.bing.com/th/id/OIP.nRicwaRg8R_o_OZVX2zQXgHaEo?w=358&h=185&c=7&r=0&o=5&pid=1.7");
@@ -7,8 +11,14 @@
   background-position: center center;
   display: grid;
   justify-content: center;
-  width:82rem;
-  margin:0;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height:100vh;
+  margin: 0;
+  padding: 0;
+
 }
 
 .bg-body > h1{
@@ -42,10 +52,9 @@
 }
 
 .button-dark{
-  border: 1px solid black;
   border-radius: 30px;
   background-color:rgba(0, 0, 0, 0.9);
-
+  height: 45px;
 }
 
 .mouse-icon{
